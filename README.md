@@ -12,7 +12,7 @@ cd spring4shell_vulnapp
 mvn package
 ```
 
-That should generate a war file in target. You can load that into Tomcat. How? Something like:
+That should generate a war file in `./target/`. You can load the war into Tomcat. How? Something like:
 
 ```
 wget https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.77/bin/apache-tomcat-8.5.77.zip
