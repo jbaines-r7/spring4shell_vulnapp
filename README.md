@@ -37,6 +37,15 @@ cat ./apache-tomcat-8.5.77/webapps/ROOT/tomcatwar.jsp
 
 Done!
 
+### Docker Alternative
+
+```
+git clone https://github.com/jbaines-r7/spring4shell_vulnapp.git
+cd spring4shell_vulnapp
+docker build --tag spring4shellapp .
+docker run -p 8080:8080 --rm -d spring4shellapp
+```
+
 ## Credit
 
 This is a modified version of [Ramesh Fadatare's](https://github.com/RameshMF) [Spring MVC Tutorial: Helloworld Example](https://github.com/RameshMF/spring-mvc-tutorial/tree/master/springmvc5-helloworld-exmaple). Thank you Ramesh for the easy to use code.
